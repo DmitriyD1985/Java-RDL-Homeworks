@@ -1,4 +1,3 @@
-import com.sun.org.apache.xpath.internal.operations.Or;
 import io.humb1t.Main;
 import io.humb1t.Task2;
 import org.junit.BeforeClass;
@@ -8,6 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+
+/*
+* Тесты на void методы не написал, я тесты раньше не писал, только несложные асерты, в тут сел разбираться и залип,
+* напишу тесты но позднее, так как это задание, сел делать по старой доброй традиции в последний момент!
+* */
 
 public class Task2test {
     static List<Main.Order> list = new ArrayList<>();
